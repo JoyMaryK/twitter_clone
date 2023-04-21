@@ -96,6 +96,18 @@ body{
     display: flex;
     gap: .9rem;
 }
+.profile-action-btns{
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+    
+}
+.profile-action-btns button{
+    background-color: black;
+    color: #fff;
+    border: 1px solid #fff;
+    
+}
 .what, .where, .profile-website, .joined, .follower-following ,.repy{
     display: flex;
     align-items: center;
@@ -124,7 +136,7 @@ body{
     color: #fff;
 }
 .rounded-img-tweet{
-    margin: .2rem;
+    margin: .4rem .2rem;
     height: 10vh;
     width: 10vh;
     border-radius: 50%;
